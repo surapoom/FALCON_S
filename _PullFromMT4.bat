@@ -4,9 +4,9 @@ rem Script to Sync Files from Development Terminal to Version Control
 setlocal enabledelayedexpansion
 
 :: Source Directory where Expert Advisor is located
-set SOURCE_DIR="C:\Program Files (x86)\FxPro - Terminal2\MQL4\Experts\FALCON_S"
+set SOURCE_DIR="C:\Program Files (x86)\ICMarkets MT4 Terminal2\MQL4\Experts\FALCON_S"
 :: Destination Directory where Version Control Repository is located
-set DEST_DIR="C:\Users\fxtrams\Documents\000_TradingRepo\FALCON_S"
+set DEST_DIR="C:\LazyTrading\GitHub\FALCON_S"
 
 :: Copy only files with *.mq4 extension
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
